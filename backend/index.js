@@ -19,6 +19,7 @@ app.use(cors());
 //     methods: ['GET', 'POST', 'PUT', 'DELETE'],
 //     allowedHeaders: ['Content-Type'],
 //   })
+// )
 
 app.get('/', (request, response) => {
     console.log(request)
